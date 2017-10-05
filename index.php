@@ -17,6 +17,8 @@
  * Copyright © 2013-2017 Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
+ 
+ /* front end controller */
 
 try {
     require __DIR__ . '/app/bootstrap.php';
