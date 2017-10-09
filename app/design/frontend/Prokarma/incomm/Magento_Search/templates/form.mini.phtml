@@ -99,7 +99,9 @@ foreach ($cls as $p){
 
  
 ?>
-<div class="block block-search"> Coming with search feature
+
+<div class="block block-search"><?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('header-search')->toHtml();?>
+
     <div class="block block-title"><strong><?php /* @escapeNotVerified */ echo __('Search'); ?></strong></div>
     <div class="block block-content">
         <form class="form minisearch" id="search_mini_form" action="<?php /* @escapeNotVerified */ echo $helper->getResultUrl() ?>" method="get">

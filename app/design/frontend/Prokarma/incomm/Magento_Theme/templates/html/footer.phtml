@@ -9,6 +9,8 @@
 ?>
 <div class="footer-container">
     <div class="footer">
+    	<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-nav-sec1')->toHtml();?>
+
         <?php echo $block->getChildHtml() ?>
         <p class="bugs"><?php /* @escapeNotVerified */ echo __('Help Us Keep Magento Healthy') ?> - <a
             href="http://www.magentocommerce.com/bug-tracking"
