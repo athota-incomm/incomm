@@ -4,5 +4,70 @@
  * See COPYING.txt for license details.
  */
 ?>
-<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-nav-sec1')->toHtml();?>
+<?php //echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-nav-sec1')->toHtml();?>
+
+
+<div id="iNavNGI_FooterMain" class="us-en iNNewFoot iNavCenter">
+<div id="iNavNGI_FooterWrap">
+<div id="iNavNGI_FooterCont">
+		<div id="iNavNGI_Footer">
+			
+			
+			
+			
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer_main_navigation')->toHtml();?>
+		<!--<div id="iNavFootMain">
+			<ul>
+			<li><a  href="#" title="About American Express">About American Express</a></li>
+			<li><a  href="#" title="Investor events>Investor Relations</a></li>
+			<li><a  href="#" title="What will you do for a living?">Careers</a></li>
+			<li><a  href="#" title="Site Map">Site Map</a></li>
+			<li><a  href="#" title="Contact Us - Answers by phone in minutes">Contact Us</a></li>
+			<li><a  href="#" title="Mobile access to your Card account">Mobile &amp; Tablet Apps</a></li>
+			</ul>		
+		</div>
+		
+			<div id="iNavFootSub">
+			
+				<ul id="iNavSocial">
+				<li><a href="#"><img src="http://localhost/incomm/admin/cms/wysiwyg/directive/___directive/e3t2aWV3IHVybD0iaW1hZ2VzL2xvZ29fRmFjZWJvb2suanBnIn19/key/1eed19f2e97cce9671c433ede193021da118cb52f124a8951e5f3234eb26a616/" /></a></li>
+				<li><a href="#"><img src="http://localhost/incomm/admin/cms/wysiwyg/directive/___directive/e3t2aWV3IHVybD0iaW1hZ2VzL2xvZ29fVHdpdHRlci5qcGcifX0,/key/1eed19f2e97cce9671c433ede193021da118cb52f124a8951e5f3234eb26a616/" /></a></li>
+				<li><a href="#"><img src="http://localhost/incomm/admin/cms/wysiwyg/directive/___directive/e3t2aWV3IHVybD0iaW1hZ2VzL2xvZ29fSW5zdGFncmFtLmpwZyJ9fQ,,/key/1eed19f2e97cce9671c433ede193021da118cb52f124a8951e5f3234eb26a616/" /></a></li>
+				<li><a href="#"><img src="http://localhost/incomm/admin/cms/wysiwyg/directive/___directive/e3t2aWV3IHVybD0iaW1hZ2VzL2xvZ29fTGlua2VkSW4uanBnIn19/key/1eed19f2e97cce9671c433ede193021da118cb52f124a8951e5f3234eb26a616/" /></a></li>
+				<li><a href="#"><img src="http://localhost/incomm/admin/cms/wysiwyg/directive/___directive/e3t2aWV3IHVybD0iaW1hZ2VzL2xvZ29fWW91VHViZS5qcGcifX0,/key/1eed19f2e97cce9671c433ede193021da118cb52f124a8951e5f3234eb26a616/" /></a></li>
+				</ul>				
+			</div> -->
+			
+			
+			
+			
+			
+		</div>
+		<div id="iNavFootOthers">
+
+					
+					<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer_product_services')->toHtml();?>
+		
+				
+					
+					
+					
+				<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer_links_you_may_like')->toHtml();?>
+				
+				
+		</div>
+				<div id="copyrightInfo">
+				
+				
+				<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer_supplier_management')->toHtml();?>
+						
+				<p class="iNLegal">All users of our online services subject to Privacy Statement and agree to be bound by Terms of Service. Please review.</p>
+				<!--p class="iNCopy">© 2017 American Express Company. All rights reserved.</p-->
+				</div>
+		
+	</div> <!-- iNavNGI_FooterCont -->
+		<div id="iNavObjects"></div>
+	
+</div>
+</div>
 <?php /* @escapeNotVerified */ echo $block->getMiscellaneousHtml();
