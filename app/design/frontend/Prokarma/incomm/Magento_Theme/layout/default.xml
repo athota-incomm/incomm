@@ -15,19 +15,19 @@
        <!--  you can easly add New links with following code -->
         <referenceBlock name="header.links">
                <!-- Contact us Link -->
-            <block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
+            <!--block class="Magento\Framework\View\Element\Html\Link" name="contactus.link" after="register-link">
                 <arguments>
                     <argument name="label" xsi:type="string" translate="false">Contact Us</argument>
                     <argument name="path" xsi:type="string" translate="false">contact-us</argument>
                 </arguments>
-            </block>
+            </block-->
             <!-- CMS Page Link Link -->
-            <block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="contactus.link">
+            <!--block class="Magento\Framework\View\Element\Html\Link" name="aboutus.link" after="contactus.link">
                 <arguments>
                     <argument name="label" xsi:type="string" translate="false">about Us</argument>
                     <argument name="path" xsi:type="string" translate="false">about-us</argument>
                 </arguments>
-            </block>
+            </block-->
 
              <!--  you can easly Remove  links with following code -->
             <referenceBlock name="register-link" remove="true" />           <!--for Create Account Link-->
